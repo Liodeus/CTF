@@ -6,10 +6,6 @@ os.system("tar xvf ../42.tar.xz")
 
 while True:
 	for x in glob.glob("./*.xz"):
-		if "flag" in str(x):
-			print("flag")
-			print(x)
-			os.system("cat {}".format(x))
 		num = re.findall("[0-9]+", x)
 		os.mkdir(num[0])
 		os.system("mv {} {}".format(x, num[0]))
