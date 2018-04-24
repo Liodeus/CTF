@@ -1,3 +1,4 @@
+# http://code.activestate.com/recipes/172845-python-luhn-checksum-for-credit-card-validation/
 def card(number):
 	sum = 0
 	num_digits = len(number)
