@@ -1,4 +1,4 @@
-import requests, random
+import requests
 
 url = "http://ibarakaiev.shpp.me/pactf_s7fj43/key_"
 
